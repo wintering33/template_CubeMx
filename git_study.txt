@@ -1,0 +1,13 @@
+git status //查看当前库状态,是否有修改等
+git init //创建版本库
+git add (file.name) //添加文件到暂存区
+git commit -m "explain text" //提交暂存区文件到版本库
+git diff (file.name) //查看修改得情况
+git diff HEAD -- file.name  //查看工作区和版本库版本区别
+git log //查看版本库状态，及版本信息
+git reset --hard commit_id //切换版本，版本回退到commit_id
+git reflog //查看命令历史
+git checkout -- file.name //把文件在工作区的修改全部撤销
+git reset HEAD file,name //把暂存区的修改回退到工作区
+git rm file.name //删除版本库中文件
+git push origin branch//把本地分支最新修改传至GIthub
